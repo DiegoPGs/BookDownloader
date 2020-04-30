@@ -1,0 +1,31 @@
+# BookDownloader
+Descargar libros gratuitos de springer automáticamente
+
+Requisitos:
+-Python3
+
+Instrucciones de uso:
+1- Descargar las dependencias:
+  a- PyPDF2
+  https://pypi.org/project/PyPDF2/
+  b. bs4/BeautifulSoup
+  https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup
+
+2- Descargar el archivo 'Springer Ebooks.pdf'
+
+3- En la línea 6 del script de python ('el_scripto.py') cambiar la ruta en donde se encuentre su archivo descargado.
+  Agregando el nombre del archivo al final, algunos ejemplos:
+  C:/Users/diego/Desktop/libros/PDF/Springer Ebooks.pdf
+  C:\Users\diego\Downloads\Springer Ebooks.pdf
+  /home/diego/Downloads/Springer Ebooks.pdf
+
+4- Abrir la consola en donde se encuentre el script ('el_scripto.py') y correr el comando:
+  python3 el_scripto.py
+
+IMPORTANTE:
+El script descargará los libros en la carpeta que se encuentre en script, por lo que es importante preveer la ubicación de su script
+
+Agradecimientos:
+A stackoverflow #ProgramacionFullStack(Overflow)
+A Springer por hacer sus libros gratuitos (por tiempo limitado)
+A la comunidad
