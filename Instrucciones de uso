@@ -13,7 +13,7 @@ Instrucciones de uso:
 
 2- Descargar el archivo 'Springer Ebooks.pdf'
 
-3- En la línea 6 del script de python ('el_scripto.py') cambiar la ruta en donde se encuentre su archivo descargado.
+3- En la línea 15 del script de python ('el_scripto.py') cambiar la ruta en donde se encuentre su archivo descargado.
   Agregando el nombre del archivo al final, algunos ejemplos:
   C:/Users/diego/Desktop/libros/PDF/Springer Ebooks.pdf
   C:\Users\diego\Downloads\Springer Ebooks.pdf
