@@ -49,8 +49,11 @@ def main():
 						autor += a.text.strip() + ", "
 						if i == (len(auths) - 1):
 							autor += a.text.strip()
-				
+
 				file_name = titulo + ": " + autor + ".pdf"
+
+				#caracter que rompen el nombre de archivo
+				if '/' in file_name: file_name = file_name.replace("/", ", ")
 
 				#mostrar info al usuario
 				print(file_name)
